@@ -53,8 +53,8 @@ def main():
             id3 = "img_out"+str(i+1)+"-C-K"+str(j+1)
             medianFilter(image, mn_median[j], path[i]+item[2], id3)
 
-        # item B - calculate average filter (3x3, 5x5, 7x7)
-        id2 = "img_out"+str(i+1)+"-B-K"+str(j+1)
+        # item B - calculate average filter (3x3)
+        id2 = "img_out"+str(i+1)+"-B"
 
         avgFilter(image, kernel_B, path[i]+item[1], id2)
 
